@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form lagi</title>
+</head>
+<body>
+    <form  action="simpan.php" method="post"></form>
+    <table>
+        <tr>
+            <td>Gambar</td>
+            <td>
+                <input type="file" name="gambar">
+            </td>
+        </tr>
+        <tr>
+            <td>kereta</td>
+            <td>
+                <select name="kereta" required>
+                <optgroup label="Toyota">
+                    <option>vios</option>
+                    <option>Altis</option>
+                    <option>Camry</option>
+                </optgroup>
+                <optgroup label="Perodua">
+                    <option>kancil</option>
+                    <option>viva</option>
+                    <option>myvi</option>
+                </optgroup>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button type="submit">SIMPAN</button>
+    </form>
+</body>
+</html>
